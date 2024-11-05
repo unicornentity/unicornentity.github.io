@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Site</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+        }
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 5em 1em;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        /* About Section */
+        #about {
+            padding: 2em;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        #about h2 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+        /* Services Section */
+        #services {
+            padding: 2em;
+            text-align: center;
+        }
+        #services h2 {
+            color: #333;
+            margin-bottom: 1em;
+        }
+        .service {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            padding: 1em;
+            background: #e2e2e2;
+            border-radius: 5px;
+        }
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Single Page Site</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Your one-stop solution for amazing services</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of dedicated professionals delivering high-quality services to meet all your needs.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Service 1</h3>
+            <p>High-quality service tailored to your needs.</p>
+        </div>
+        <div class="service">
+            <h3>Service 2</h3>
+            <p>Innovative solutions for modern problems.</p>
+        </div>
+        <div class="service">
+            <h3>Service 3</h3>
+            <p>Trusted by clients around the world.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: <a href="mailto:info@mysite.com" style="color: #fff;">info@mysite.com</a></p>
+        <p>&copy; 2023 My Single Page Site</p>
+    </footer>
+
+</body>
+</html>
